@@ -1,0 +1,62 @@
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.landing-content {
+  max-width: 800px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.company-name {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.company-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.get-started-btn {
+  display: inline-block;
+  background-color: #2c7d59;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  border: 2px solid #2c7d59;
+}
+
+.get-started-btn:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+@media (max-width: 768px) {
+  .company-name {
+    font-size: 2.5rem;
+  }
+  
+  .company-description {
+    font-size: 1rem;
+  }
+  
+  .get-started-btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+  }
+}
